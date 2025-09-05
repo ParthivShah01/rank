@@ -15,7 +15,6 @@ st.write("Villains Defeated: None")
 # UI to adjust dims
 w = 400
 h = 640
-bg_mode = "contain"
 
 FRONT = Path("drank.png")
 BACK = Path("back.png")
@@ -152,5 +151,6 @@ html = f"""
 """
 
 # adjust component height so it fits the card + padding
-comp_height = h + 16
+comp_height = h
 st.components.v1.html(html, height=comp_height, scrolling=False)
+
