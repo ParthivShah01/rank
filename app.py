@@ -13,7 +13,7 @@ st.write("XP Points: 1200")
 st.write("Villains Defeated: None")
 
 # UI to adjust dims
-w = 370
+w = 400
 h = 700
 bg_mode = "contain"
 FRONT = Path("drank.png")
