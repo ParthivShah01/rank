@@ -13,7 +13,7 @@ st.write("XP Points: 1200")
 st.write("Villains Defeated: None")
 
 # UI to adjust dims
-w = 450
+w = 350
 h = 500
 bg_mode = "cover"
 FRONT = Path("drank.png")
@@ -153,6 +153,7 @@ html = f"""
 # adjust component height so it fits the card + padding
 comp_height = h
 st.components.v1.html(html, height=comp_height, scrolling=False)
+
 
 
 
